@@ -773,6 +773,10 @@ footer .social ul #instagram {
   background-image: url(../assets/instagram-icon.svg);
 }
 
+footer .social ul #dribbble {
+  background-image: url(../assets/dribbble-icon.svg);
+}
+
 footer .social ul #github {
   background-image: url(../assets/github-icon.svg);
 }

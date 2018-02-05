@@ -425,6 +425,26 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item:nth-child(8) {
+  background-color: #979EA0;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item:nth-child(9) {
+  background-color: #71734c;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item:nth-child(10) {
+  background-color: #979EA0;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item:nth-child(11) {
+  background-color: #c067d6;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
 .grid-items .grid-item img {
   display: block;
   height: 3em;
@@ -540,9 +560,47 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-10 {
+    background: url("../assets/icon-ramen-sm.jpg");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
+}
+
 .grid-items .grid-item-image-11 {
-  background: url("../assets/navya-sm.jpg");
+  background: url("../assets/ap_sm2.png");
   box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-11 {
+    background: url("../assets/ap_sm2.png");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
+}
+
+.grid-items .grid-item-image-12 {
+  background: url("../assets/bonsai-sm3.jpg");
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-12 {
+    background: url("../assets/bonsai-sm3.jpg");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
+}
+
+.grid-items .grid-item-image-13 {
+  background: url("../assets/bonsai-sm4.jpg");
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-13 {
+    background: url("../assets/bonsai-sm4.jpg");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
 }
 
 .grid-items .description {

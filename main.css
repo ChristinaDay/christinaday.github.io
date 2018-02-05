@@ -623,6 +623,10 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item-image-14:hover {
+  background: url("../assets/learn-more.svg");
+}
+
 @media screen and (min-width: 53.75em) {
   .grid-items .grid-item-image-14 {
     background: url("../assets/zc_snacks_sm.jpg");

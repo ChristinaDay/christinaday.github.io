@@ -686,6 +686,22 @@ h2 {
   }
 }
 
+.grid-items .grid-item-image-15 {
+  background: url("../assets/ap_sm3.png");
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-15:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-15 {
+    background: url("../assets/ap_sm3.png");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
+}
+
 .grid-items .description {
   display: none;
 }

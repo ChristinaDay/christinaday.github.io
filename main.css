@@ -498,6 +498,10 @@ h2 {
   background: url("../assets/icons-midcentury-furniture-sm-mobile.jpg");
 }
 
+.grid-items .grid-item-image-1:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
 @media screen and (min-width: 53.75em) {
   .grid-items .grid-item-image-1 {
     background: url("../assets/icons-midcentury-furniture-sm.jpg");
@@ -509,8 +513,16 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item-image-2:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
 .grid-items .grid-item-image-3 {
   background: url("../assets/atxnerdyladies-sm-mobile.jpg");
+}
+
+.grid-items .grid-item-image-3:hover {
+  background: url("../assets/learn-more-sm.svg");
 }
 
 @media screen and (min-width: 53.75em) {
@@ -524,8 +536,16 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item-image-4:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
 .grid-items .grid-item-image-5 {
   background: url("../assets/rocket-hero-sm-mobile.jpg");
+}
+
+.grid-items .grid-item-image-5:hover {
+  background: url("../assets/learn-more-sm.svg");
 }
 
 @media screen and (min-width: 53.75em) {
@@ -538,8 +558,16 @@ h2 {
   background: url("../assets/bonsai-sm1.jpg");
 }
 
+.grid-items .grid-item-image-6:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
 .grid-items .grid-item-image-7 {
   background: url("../assets/makersquare-sm-mobile.jpg");
+}
+
+.grid-items .grid-item-image-7:hover {
+  background: url("../assets/learn-more.svg");
 }
 
 @media screen and (min-width: 53.75em) {
@@ -552,6 +580,10 @@ h2 {
   background: url("../assets/anyperk-sm-mobile.jpg");
 }
 
+.grid-items .grid-item-image-8:hover {
+  background: url("../assets/learn-more.svg");
+}
+
 @media screen and (min-width: 53.75em) {
   .grid-items .grid-item-image-8 {
     background: url("../assets/anyperk-sm.jpg");
@@ -561,6 +593,10 @@ h2 {
 .grid-items .grid-item-image-9 {
   background: url("../assets/kome-menuicons-sm-mobile.jpg");
   box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-9:hover {
+  background: url("../assets/learn-more-sm.svg");
 }
 
 @media screen and (min-width: 53.75em) {
@@ -575,6 +611,10 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item-image-10:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
 @media screen and (min-width: 53.75em) {
   .grid-items .grid-item-image-10 {
     background: url("../assets/icon-ramen-sm.jpg");
@@ -585,6 +625,10 @@ h2 {
 .grid-items .grid-item-image-11 {
   background: url("../assets/ap_sm2.png");
   box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-11:hover {
+  background: url("../assets/learn-more-sm.svg");
 }
 
 @media screen and (min-width: 53.75em) {
@@ -599,6 +643,10 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item-image-12:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
 @media screen and (min-width: 53.75em) {
   .grid-items .grid-item-image-12 {
     background: url("../assets/bonsai-sm3.jpg");
@@ -609,6 +657,10 @@ h2 {
 .grid-items .grid-item-image-13 {
   background: url("../assets/bonsai-sm4.jpg");
   box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-13:hover {
+  background: url("../assets/learn-more-sm.svg");
 }
 
 @media screen and (min-width: 53.75em) {

@@ -182,6 +182,7 @@ h2 {
   text-rendering: optimizeLegibility;
   letter-spacing: 0.5em;
   padding-top: 30px;
+  vertical-align: top;
 }
 
 .centered-navigation .logo a {

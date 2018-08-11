@@ -866,6 +866,7 @@ footer a {
 }
 
 footer .social ul {
+  padding-left: none;
   list-style: none;
 }
 

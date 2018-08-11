@@ -330,7 +330,7 @@ h2 {
   z-index: 9;
 }
 
-.parallax-background {
+.parallax-background-home {
   background: url("../assets/hero-pattern.png") repeat;
   background-position: top;
   background-size: cover;
@@ -706,7 +706,7 @@ h2 {
   display: none;
 }
 
-.bullets-wrapper {
+.bullets-wrapper, .hero-wrapper {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;

@@ -737,12 +737,7 @@ h2 {
   .bullets-wrapper .portrait {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
-    padding-top: 2em;
-  }
-  .bullets-wrapper .portrait:last-child {
-    margin-right: 0;
+    width: 20%;
   }
 }
 
@@ -761,33 +756,8 @@ h2 {
   .bullets-wrapper .hero-blurb {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%;
+    width: 72%;
   }
-  .bullets-wrapper .hero-blurb:last-child {
-    margin-right: 0;
-  }
-}
-
-.bullets-wrapper .description-col1 p, .bullets-wrapper .description-col2 p {
-  margin-top: 0;
-}
-
-@media screen and (min-width: 53.75em) {
-  .bullets-wrapper .description-col1, .bullets-wrapper .description-col2 {
-    float: left;
-    display: block;
-    margin-right: 3.57866%;
-    width: 48.21067%;
-  }
-  .bullets-wrapper .description-col1:last-child, .bullets-wrapper .description-col2:last-child {
-    margin-right: 0;
-  }
-}
-
-.bullets-wrapper p {
-  line-height: 1.5;
-  margin-bottom: 10px;
 }
 
 .bullets-wrapper img {
@@ -795,12 +765,6 @@ h2 {
   border-radius: 50%;
   margin-bottom: 10px;
   box-shadow: 0px 2px 10px #bbb;
-}
-
-@media screen and (min-width: 53.75em) {
-  .bullets-wrapper img {
-    margin: auto auto auto 85px;
-  }
 }
 
 .project-container {

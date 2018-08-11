@@ -328,10 +328,8 @@ h2 {
 .parallax-window {
   max-height: 100%;
   overflow: hidden;
-  position: relative;
   text-align: left;
   width: 100%;
-  border-bottom: 1px solid #ededed;
 }
 
 .parallax-static-content {

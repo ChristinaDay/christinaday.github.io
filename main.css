@@ -352,6 +352,7 @@ h2 {
   margin-right: auto;
   border-top: 9px solid white;
   padding-bottom: 3em;
+  padding-top: 3em;
 }
 
 .grid-items::after {

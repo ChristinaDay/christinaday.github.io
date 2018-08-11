@@ -99,7 +99,7 @@ h2 {
   display: table;
 }
 
-.centered-navigation ul.centered-navigation-menu {
+.centered-navigation ul.header-menu {
   -webkit-transform-style: preserve-3d;
   clear: both;
   display: none;
@@ -110,12 +110,12 @@ h2 {
   z-index: 99999;
 }
 
-.centered-navigation ul.centered-navigation-menu.show {
+.centered-navigation ul.header-menu.show {
   display: block;
 }
 
 @media screen and (min-width: 53.75em) {
-  .centered-navigation ul.centered-navigation-menu {
+  .centered-navigation ul.header-menu {
     display: block;
     text-align: left;
   }

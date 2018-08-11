@@ -176,7 +176,7 @@ h2 {
   text-transform: uppercase;
   font-weight: bolder;
   text-rendering: optimizeLegibility;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.2em;
   padding-top: 30px;
   vertical-align: top;
 }
@@ -345,6 +345,7 @@ h2 {
 
 .parallax-background-home {
   background: url("../assets/hero-pattern.png") repeat;
+  background-size: 50%;
 }
 
 .parallax-background-zc {

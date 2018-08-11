@@ -143,11 +143,11 @@ h2 {
   display: inline-block;
   outline: none;
   text-decoration: none;
+}
 
-  img {
-    width: 50px;
-    border-radius: 50%;
-  }
+.centered-navigation ul li.nav-link a img {
+  width: 50px;
+  border-radius: 50%;
 }
 
 .centered-navigation ul li.nav-link a:focus,

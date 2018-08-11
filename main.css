@@ -33,6 +33,11 @@ h2 {
   z-index: 9999;
 }
 
+.centered-navigation .home {
+  background-color: none;
+  border-bottom: none;
+}
+
 .centered-navigation .mobile-logo {
   display: inline;
   float: left;

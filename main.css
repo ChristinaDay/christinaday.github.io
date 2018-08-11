@@ -193,6 +193,10 @@ h2 {
   padding-right: 0;
 }
 
+.rhand-nav {
+  float: right;
+}
+
 @media screen and (min-width: 53.75em) {
   .centered-navigation li.more.nav-link {
     padding-right: 1em;
@@ -345,7 +349,7 @@ h2 {
 
 .parallax-background-home {
   background: url("../assets/hero-pattern.png") repeat;
-  background-size: 50%;
+  background-size: 68%;
 }
 
 .parallax-background-zc {

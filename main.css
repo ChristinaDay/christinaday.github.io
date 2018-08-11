@@ -779,8 +779,8 @@ h2 {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 0 70px 0;
-  text-align: center;
+  padding: 1% 15%;
+  text-align: left;
 }
 
 .project-container::after {

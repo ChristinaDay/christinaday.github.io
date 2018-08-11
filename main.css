@@ -143,7 +143,7 @@ h2 {
 }
 
 .centered-navigation ul li.nav-link a img {
-  width: 50px;
+  width: 40px;
   border-radius: 50%;
 }
 
@@ -176,7 +176,7 @@ h2 {
   font-weight: bolder;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.2em;
-  padding-top: 30px;
+  padding-top: 20px;
   vertical-align: top;
   font-size: 14px;
 }
@@ -195,7 +195,7 @@ h2 {
 
 .rhand-nav {
   float: right;
-  padding-top: 30px;
+  padding-top: 20px;
   font-weight: normal;
   letter-spacing: normal;
   padding-left: 10px;

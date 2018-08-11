@@ -425,6 +425,41 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item:nth-child(8) {
+  background-color: #979EA0;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item:nth-child(9) {
+  background-color: #71734c;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item:nth-child(10) {
+  background-color: #979EA0;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item:nth-child(11) {
+  background-color: #c067d6;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item:nth-child(12) {
+  background-color: #c067d6;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item:nth-child(13) {
+  background-color: #c067d6;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item:nth-child(14) {
+  background-color: #c067d6;
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
 .grid-items .grid-item img {
   display: block;
   height: 3em;
@@ -463,6 +498,10 @@ h2 {
   background: url("../assets/icons-midcentury-furniture-sm-mobile.jpg");
 }
 
+.grid-items .grid-item-image-1:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
 @media screen and (min-width: 53.75em) {
   .grid-items .grid-item-image-1 {
     background: url("../assets/icons-midcentury-furniture-sm.jpg");
@@ -474,8 +513,16 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item-image-2:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
 .grid-items .grid-item-image-3 {
   background: url("../assets/atxnerdyladies-sm-mobile.jpg");
+}
+
+.grid-items .grid-item-image-3:hover {
+  background: url("../assets/learn-more-sm.svg");
 }
 
 @media screen and (min-width: 53.75em) {
@@ -489,8 +536,16 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item-image-4:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
 .grid-items .grid-item-image-5 {
   background: url("../assets/rocket-hero-sm-mobile.jpg");
+}
+
+.grid-items .grid-item-image-5:hover {
+  background: url("../assets/learn-more-sm.svg");
 }
 
 @media screen and (min-width: 53.75em) {
@@ -500,11 +555,19 @@ h2 {
 }
 
 .grid-items .grid-item-image-6 {
-  background: url("../assets/bonsai-sm.jpg");
+  background: url("../assets/bonsai-sm1.jpg");
+}
+
+.grid-items .grid-item-image-6:hover {
+  background: url("../assets/learn-more-sm.svg");
 }
 
 .grid-items .grid-item-image-7 {
   background: url("../assets/makersquare-sm-mobile.jpg");
+}
+
+.grid-items .grid-item-image-7:hover {
+  background: url("../assets/learn-more.svg");
 }
 
 @media screen and (min-width: 53.75em) {
@@ -517,6 +580,10 @@ h2 {
   background: url("../assets/anyperk-sm-mobile.jpg");
 }
 
+.grid-items .grid-item-image-8:hover {
+  background: url("../assets/learn-more.svg");
+}
+
 @media screen and (min-width: 53.75em) {
   .grid-items .grid-item-image-8 {
     background: url("../assets/anyperk-sm.jpg");
@@ -526,6 +593,10 @@ h2 {
 .grid-items .grid-item-image-9 {
   background: url("../assets/kome-menuicons-sm-mobile.jpg");
   box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-9:hover {
+  background: url("../assets/learn-more-sm.svg");
 }
 
 @media screen and (min-width: 53.75em) {
@@ -540,9 +611,95 @@ h2 {
   box-shadow: inset 0px 0px 1px 2px #ededed;
 }
 
+.grid-items .grid-item-image-10:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-10 {
+    background: url("../assets/icon-ramen-sm.jpg");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
+}
+
 .grid-items .grid-item-image-11 {
-  background: url("../assets/navya-sm.jpg");
+  background: url("../assets/ap_sm2.png");
   box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-11:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-11 {
+    background: url("../assets/ap_sm2.png");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
+}
+
+.grid-items .grid-item-image-12 {
+  background: url("../assets/bonsai-sm3.jpg");
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-12:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-12 {
+    background: url("../assets/bonsai-sm3.jpg");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
+}
+
+.grid-items .grid-item-image-13 {
+  background: url("../assets/bonsai-sm4.jpg");
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-13:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-13 {
+    background: url("../assets/bonsai-sm4.jpg");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
+}
+
+.grid-items .grid-item-image-14 {
+  background: url("../assets/zc_snacks_sm.jpg");
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-14:hover {
+  background: url("../assets/learn-more.svg");
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-14 {
+    background: url("../assets/zc_snacks_sm.jpg");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
+}
+
+.grid-items .grid-item-image-15 {
+  background: url("../assets/ap_sm3.png");
+  box-shadow: inset 0px 0px 1px 2px #ededed;
+}
+
+.grid-items .grid-item-image-15:hover {
+  background: url("../assets/learn-more-sm.svg");
+}
+
+@media screen and (min-width: 53.75em) {
+  .grid-items .grid-item-image-15 {
+    background: url("../assets/ap_sm3.png");
+    box-shadow: inset 0px 0px 1px 2px #ededed;
+  }
 }
 
 .grid-items .description {
@@ -731,6 +888,14 @@ footer .social ul #email {
 
 footer .social ul #twitter {
   background-image: url(../assets/twitter-icon.svg);
+}
+
+footer .social ul #instagram {
+  background-image: url(../assets/instagram-icon.svg);
+}
+
+footer .social ul #dribbble {
+  background-image: url(../assets/dribbble-icon.svg);
 }
 
 footer .social ul #github {

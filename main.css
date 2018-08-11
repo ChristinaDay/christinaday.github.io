@@ -850,6 +850,12 @@ footer {
   border-top: 2px solid #A9A2E4;
 }
 
+footer h2 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  padding-bottom: 0.5em;
+}
+
 footer p {
   font-size: 9px;
   text-transform: uppercase;
@@ -879,8 +885,8 @@ footer .social ul li {
 footer .social ul a {
   display: inline-block;
   color: transparent;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   margin-left: 0;
 }
 

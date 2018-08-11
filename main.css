@@ -360,6 +360,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   border-top: 9px solid white;
+  padding-bottom: 3em;
 }
 
 .grid-items::after {
@@ -723,10 +724,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-top: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 60px;
+  padding-top: 2em;
 }
 
 .bullets-wrapper::after {

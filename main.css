@@ -330,8 +330,7 @@ h2 {
   z-index: 9;
 }
 
-.parallax-background-home {
-  background: url("../assets/hero-pattern.png") repeat;
+.parallax-background-home, .parallax-background-zc {
   background-position: top;
   background-size: cover;
   background-color: #fff;
@@ -341,6 +340,14 @@ h2 {
   top: -33.33333%;
   width: 100%;
   opacity: 0.3;
+}
+
+.parallax-background-home {
+  background: url("../assets/hero-pattern.png") repeat;
+}
+
+.parallax-background-zc {
+  background: url("../assets/hero-pattern.png") repeat;
 }
 
 .grid-items {

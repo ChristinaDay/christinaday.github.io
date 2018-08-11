@@ -742,8 +742,9 @@ h2 {
 }
 
 .bullets-wrapper .hero-blurb h2 {
-  padding-bottom: 1em;
   display: inline-block;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
 }
 
 @media screen and (min-width: 53.75em) {
@@ -757,8 +758,8 @@ h2 {
 .bullets-wrapper .hero-blurb {
   float: left;
   display: block;
-  margin-right: 2.35765%;
   width: 100%;
+  padding-bottom: 2em;
 }
 
 .bullets-wrapper .hero-blurb:last-child {
@@ -812,7 +813,6 @@ h3 {
 }
 
 p {
-  margin-bottom: 70px;
   line-height: 1.5;
 }
 

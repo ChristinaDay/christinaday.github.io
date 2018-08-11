@@ -846,7 +846,7 @@ a {
 footer {
   background: #3B3852;
   min-height: 100px;
-  padding-left: 8%;
+  padding: 1% 8%;
   border-top: 2px solid #A9A2E4;
 }
 

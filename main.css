@@ -105,6 +105,8 @@ h2 {
 
 .centered-navigation ul.header-menu {
   -webkit-transform-style: preserve-3d;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
   clear: both;
   display: none;
   overflow: visible;

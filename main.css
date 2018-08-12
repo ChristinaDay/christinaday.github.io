@@ -887,20 +887,20 @@ footer a {
   margin-left: 3px;
 }
 
-footer .social ul {
+.social ul {
   padding-left: 0;
   list-style: none;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
 }
 
-footer .social ul li {
+.social ul li {
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-footer .social ul a {
+.social ul a {
   display: inline-block;
   color: transparent;
   width: 15px;
@@ -908,43 +908,43 @@ footer .social ul a {
   margin-left: 0;
 }
 
-footer .social ul #email {
+.social ul #email {
   background-image: url(../assets/email-icon.svg);
 }
 
-footer .social ul #twitter {
+.social ul #twitter {
   background-image: url(../assets/twitter-icon.svg);
 }
 
-footer .social ul #instagram {
+.social ul #instagram {
   background-image: url(../assets/instagram-icon.svg);
 }
 
-footer .social ul #dribbble {
+.social ul #dribbble {
   background-image: url(../assets/dribbble-icon.svg);
 }
 
-footer .social ul #github {
+.social ul #github {
   background-image: url(../assets/github-icon.svg);
 }
 
-footer .social ul #tumblr {
+.social ul #tumblr {
   background-image: url(../assets/tumblr-icon.svg);
 }
 
-footer .social ul #facebook {
+.social ul #facebook {
   background-image: url(../assets/facebook-icon.svg);
 }
 
-footer .social ul #linkedin {
+.social ul #linkedin {
   background-image: url(../assets/linkedin-icon.svg);
 }
 
-footer .social ul #behance {
+.social ul #behance {
   background-image: url(../assets/behance-icon.svg);
 }
 
-footer .social ul #flickr {
+.social ul #flickr {
   background-image: url(../assets/flickr-icon.svg);
 }
 

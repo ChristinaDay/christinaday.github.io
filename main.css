@@ -188,6 +188,10 @@ h2 {
   color: #807c9e;
 }
 
+.centered-navigation .right a {
+  color: green;
+}
+
 .centered-navigation .logo span {
   color: #F78373;
 }
@@ -230,10 +234,6 @@ h2 {
   left: auto;
   color: rgba(128, 124, 158, 0.7);
   content: "\25BE";
-}
-
-.centered-navigation li.more.right > a:after {
-  color: rgb(186, 183, 206);
 }
 
 .centered-navigation li.more {

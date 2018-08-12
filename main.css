@@ -187,7 +187,7 @@ h2 {
 
 .centered-navigation .right .rhand-nav {
   color: rgb(170, 170, 191);
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .centered-navigation .logo span {
@@ -890,6 +890,8 @@ footer a {
 footer .social ul {
   padding-left: 0;
   list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
 }
 
 footer .social ul li {

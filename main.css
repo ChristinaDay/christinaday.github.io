@@ -371,6 +371,10 @@ h2 {
   background: url("../assets/hero-pattern.png") repeat;
 }
 
+.parallax-background-icons {
+  background: url("../assets/icon-leglamp.png") repeat;
+}
+
 .grid-items {
   max-width: 68em;
   margin-left: auto;

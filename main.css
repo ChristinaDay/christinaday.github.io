@@ -189,7 +189,8 @@ h2 {
 }
 
 .centered-navigation .right .rhand-nav {
-  color: rgb(186, 186, 191);
+  color: rgb(170, 170, 191);
+  font-size: 10px;
 }
 
 .centered-navigation .logo span {

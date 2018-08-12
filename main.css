@@ -232,7 +232,7 @@ h2 {
   content: "\25BE";
 }
 
-a.rhand-nav {
+.centered-navigation li.more.nav-link > a.rhand-nav {
   color: rgb(186, 183, 206);
 }
 

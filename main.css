@@ -908,6 +908,14 @@ footer a {
   margin-left: 0;
 }
 
+.right .social ul a {
+  display: inline-block;
+  color: transparent;
+  width: 15px;
+  height: 15px;
+  margin-left: 0;
+}
+
 .social ul #email {
   background-image: url(../assets/email-icon.svg);
 }

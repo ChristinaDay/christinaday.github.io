@@ -186,7 +186,7 @@ h2 {
   letter-spacing: 0.2em;
   padding-top: 20px;
   vertical-align: top;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .centered-navigation .logo a {
@@ -195,7 +195,7 @@ h2 {
 
 .centered-navigation .right .rhand-nav {
   color: rgb(170, 170, 191);
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .centered-navigation .logo span {

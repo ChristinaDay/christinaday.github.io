@@ -732,6 +732,7 @@ h2 {
   margin-right: auto;
   text-align: center;
   padding-top: 3em;
+  padding-bottom: 4.5em;
 }
 
 .bullets-wrapper::after {
@@ -764,7 +765,6 @@ h2 {
   float: left;
   display: block;
   width: 100%;
-  padding-bottom: 2em;
 }
 
 .bullets-wrapper .hero-blurb:last-child {

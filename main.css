@@ -199,8 +199,6 @@ h2 {
 .rhand-nav {
   float: right;
   padding-top: 20px;
-  font-weight: normal;
-  letter-spacing: normal;
   padding-left: 10px;
   font-size: 14px;
   letter-spacing: 0.1em;
@@ -232,6 +230,10 @@ h2 {
   left: auto;
   color: rgba(128, 124, 158, 0.7);
   content: "\25BE";
+}
+
+a.rhand-nav {
+  color: rgb(186, 183, 206);
 }
 
 .centered-navigation li.more {

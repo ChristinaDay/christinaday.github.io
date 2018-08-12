@@ -916,43 +916,43 @@ footer a {
   margin-left: 0;
 }
 
-.social ul #email {
+.social #email {
   background-image: url(../assets/email-icon.svg);
 }
 
-.social ul #twitter {
+.social #twitter {
   background-image: url(../assets/twitter-icon.svg);
 }
 
-.social ul #instagram {
+.social #instagram {
   background-image: url(../assets/instagram-icon.svg);
 }
 
-.social ul #dribbble {
+.social #dribbble {
   background-image: url(../assets/dribbble-icon.svg);
 }
 
-.social ul #github {
+.social #github {
   background-image: url(../assets/github-icon.svg);
 }
 
-.social ul #tumblr {
+.social #tumblr {
   background-image: url(../assets/tumblr-icon.svg);
 }
 
-.social ul #facebook {
+.social #facebook {
   background-image: url(../assets/facebook-icon.svg);
 }
 
-.social ul #linkedin {
+.social #linkedin {
   background-image: url(../assets/linkedin-icon.svg);
 }
 
-.social ul #behance {
+.social #behance {
   background-image: url(../assets/behance-icon.svg);
 }
 
-.social ul #flickr {
+.social #flickr {
   background-image: url(../assets/flickr-icon.svg);
 }
 

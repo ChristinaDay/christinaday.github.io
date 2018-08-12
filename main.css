@@ -143,7 +143,11 @@ h2 {
 }
 
 .centered-navigation ul li.social a {
+  display: inline-block;
   color: transparent;
+  width: 15px;
+  height: 15px;
+  margin-left: 0;
 }
 
 .centered-navigation ul li.nav-link a img {

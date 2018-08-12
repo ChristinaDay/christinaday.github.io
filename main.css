@@ -926,22 +926,27 @@ footer a {
 
 #email {
   background-image: url(../assets/email-icon.svg);
+  background-size: 15px 15px;
 }
 
 #twitter {
   background-image: url(../assets/twitter-icon.svg);
+  background-size: 15px 15px;
 }
 
 #instagram {
   background-image: url(../assets/instagram-icon.svg);
+  background-size: 15px 15px;
 }
 
 #dribbble {
   background-image: url(../assets/dribbble-icon.svg);
+  background-size: 15px 15px;
 }
 
 #github {
   background-image: url(../assets/github-icon.svg);
+  background-size: 15px 15px;
 }
 
 #tumblr {
@@ -954,6 +959,7 @@ footer a {
 
 #linkedin {
   background-image: url(../assets/linkedin-icon.svg);
+  background-size: 15px 15px;
 }
 
 #behance {

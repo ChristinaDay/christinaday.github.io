@@ -189,7 +189,7 @@ h2 {
 }
 
 .centered-navigation .right .rhand-nav {
-  color: green;
+  color: rgb(186, 186, 191);
 }
 
 .centered-navigation .logo span {
@@ -232,7 +232,7 @@ h2 {
   right: -0.4em;
   bottom: auto;
   left: auto;
-  color: rgba(128, 124, 158, 0.7);
+  color: rgb(128, 124, 158);
   content: "\25BE";
 }
 

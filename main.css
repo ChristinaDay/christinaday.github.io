@@ -814,8 +814,8 @@ h2 {
 }
 
 .image-container img {
-  margin-bottom: 50px;
-  max-width: 1000px;
+  margin-bottom: 3em;
+  max-width: 700px;
 }
 
 .image-container .img-sm {

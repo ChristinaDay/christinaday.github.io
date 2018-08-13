@@ -1035,7 +1035,7 @@ figure img {
 }
 
 figure img:hover {
-  width: 115%;
+  box-shadow: 0 10px 10px #aaa;
 }
 
 .lazy {

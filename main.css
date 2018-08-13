@@ -835,11 +835,19 @@ h2 {
 
 h3 {
   font-family: "proxima-nova","helvetica", sans-serif;
-  color: rgba(128, 124, 158, 0.7);
-  font-size: 16px;
+  color: rgb(133, 130, 154);
+  font-size: 23px;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
-  margin-bottom: 1em;
+  font-weight: 300;
+}
+
+h3 a {
+  color: rgb(133, 130, 154);
+}
+
+h3 a:hover {
+  color: color: rgb(197, 197, 210);
 }
 
 p {

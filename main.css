@@ -1043,7 +1043,7 @@ figure img {
 }
 
 figure img:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
   box-shadow: 0 33px 33px #cecece;
 }
 

@@ -27,7 +27,7 @@ h2 {
   min-height: 60px;
   width: 100%;
   z-index: 9999;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-name: fadein;
 }
 
@@ -801,8 +801,7 @@ h2 {
 }
 
 .bullets-wrapper {
-  animation-duration: 5s;
-  animation-delay: 2s;
+  animation-duration: 2s;
   animation-name: fadein;
 }
 
@@ -813,7 +812,7 @@ h2 {
   padding: 0 18%;
   text-align: left;
   padding-top: 4em;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-name: fadein;
 }
 
@@ -1071,8 +1070,7 @@ figure:hover {
 }
 
 .container.grid {
-  animation-duration: 5s;
-  animation-delay: 2s;
+  animation-duration: 2s;
   animation-name: fadein;
 }
 

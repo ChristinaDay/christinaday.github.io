@@ -1102,7 +1102,7 @@ figure img:hover {
 @keyframes slidefade {
   from {
     opacity: 0;
-    right: 500px;
+    right: 50px;
   }
 
   to {

@@ -1024,8 +1024,17 @@ hr {
   }
 }
 
+.grid_card_wrapper h3 {
+  -webkit-margin-after: 0;
+}
+
+.grid_card_wrapper h4 {
+  -webkit-margin-before: 0;
+  color: rrgb(177, 177, 193);
+}
+
 .grid_card_wrapper h3:hover {
-  color: rgb(197, 197, 210);
+  color: rrgb(177, 177, 193);
 }
 
 .grid_card_wrapper a.link_block {

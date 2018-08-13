@@ -1029,8 +1029,12 @@ hr {
 }
 
 .grid_card_wrapper h4 {
-  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.grid_card_wrapper p {
   color: rrgb(177, 177, 193);
+  -webkit-margin-after: 0;
 }
 
 .grid_card_wrapper h3:hover {

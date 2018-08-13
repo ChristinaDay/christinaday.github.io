@@ -1034,10 +1034,6 @@ figure img {
   margin: 0 0 0 0;
 }
 
-figure img:hover {
-  box-shadow: 0 10px 10px #aaa;
-}
-
 .lazy {
   background-color: #fff;
   height: inherit;
@@ -1050,6 +1046,10 @@ figure img:hover {
   padding: none;
   vertical-align: top;
   display: inline;
+}
+
+.grid_card_wrapper img:hover {
+  box-shadow: 0 10px 10px #aaa;
 }
 
 .container {

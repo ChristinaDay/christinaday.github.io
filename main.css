@@ -1017,9 +1017,9 @@ figure {
   margin-bottom: 30px;
   overflow: hidden;
   -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
+  -webkit-margin-after: 2em;
   -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
+  -webkit-margin-end: 40px;
 }
 
 .grid_card_wrapper figure {

@@ -1024,11 +1024,9 @@ figure {
 
 .grid_card_wrapper figure {
   height: auto;
-  transition: all 0.25s ease-in-out;
 }
 
 figure img {
-  transition: all 0.25s ease-in-out;
   position: relative;
   width: 100%;
   margin: 0 0 0 0;

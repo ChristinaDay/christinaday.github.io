@@ -1094,7 +1094,7 @@ figure img:hover {
 }
 
 .grid_card_wrapper {
-  animation-duration: 3s;
+  transition: all 0.25s ease-in-out;
   animation-name: slidefade;
   position: relative;
 }
@@ -1102,7 +1102,7 @@ figure img:hover {
 @keyframes slidefade {
   from {
     opacity: 0;
-    right: 200px;
+    right: 500px;
   }
 
   to {

@@ -842,7 +842,7 @@ h2 {
 
 h3 {
   font-family: "proxima-nova","helvetica", sans-serif;
-  color: rgb(133, 130, 154);
+  color: rgb(62, 54, 117);
   font-size: 23px;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
@@ -1096,7 +1096,7 @@ figure img:hover {
 
 .container {
     margin: 0 auto;
-    padding: 0 8%;
+    padding: 0 10%;
     box-sizing: border-box;
 }
 

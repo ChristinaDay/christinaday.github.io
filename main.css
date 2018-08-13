@@ -1024,7 +1024,7 @@ hr {
   }
 }
 
-.grid_card_wrapper a:hover {
+.grid_card_wrapper h3:hover {
   color: rgb(197, 197, 210);
 }
 

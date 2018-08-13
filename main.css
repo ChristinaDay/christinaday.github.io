@@ -1044,7 +1044,7 @@ figure img {
 
 figure img:hover {
   transform: scale(1.02);
-  box-shadow: 0 33px 33px #cecece;
+  box-shadow: 0 17px 27px #e4e1e1;
 }
 
 .lazy {

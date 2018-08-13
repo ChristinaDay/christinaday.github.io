@@ -828,6 +828,9 @@ h3 {
   font-family: "proxima-nova","helvetica", sans-serif;
   color: rgba(128, 124, 158, 0.7);
   font-size: 16px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin-bottom: 2em;
 }
 
 p {

@@ -1038,7 +1038,7 @@ hr {
 }
 
 .grid_card_wrapper h3:hover {
-  color: rrgb(177, 177, 193);
+  color: rgb(177, 177, 193);
 }
 
 .grid_card_wrapper a.link_block {

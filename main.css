@@ -802,6 +802,7 @@ h2 {
 
 .bullets-wrapper {
   animation-duration: 5s;
+  animation-delay: 2s;
   animation-name: fadein;
 }
 
@@ -1071,6 +1072,7 @@ figure:hover {
 
 .container.grid {
   animation-duration: 5s;
+  animation-delay: 2s;
   animation-name: fadein;
 }
 

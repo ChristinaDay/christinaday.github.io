@@ -1024,12 +1024,17 @@ figure {
 
 .grid_card_wrapper figure {
   height: auto;
+  transition: all 0.25s ease-in-out;
 }
 
 figure img {
   position: relative;
   width: 100%;
   margin: 0 0 0 0;
+}
+
+figure:hover {
+  box-shadow: 0 10px 10px #aaa;
 }
 
 .lazy {
@@ -1044,10 +1049,6 @@ figure img {
   padding: none;
   vertical-align: top;
   display: inline;
-}
-
-.grid_card_wrapper img:hover {
-  margin-bottom: 1em;
 }
 
 .container {

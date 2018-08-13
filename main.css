@@ -843,6 +843,13 @@ h3 {
   line-height: 1.5;
 }
 
+h4 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+}
 
 p {
   line-height: 1.5;
@@ -1018,7 +1025,7 @@ hr {
   }
 }
 
-.grid-card-wrapper a:hover {
+.grid_card_wrapper a:hover {
   color: rgb(197, 197, 210);
 }
 

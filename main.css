@@ -27,6 +27,8 @@ h2 {
   min-height: 60px;
   width: 100%;
   z-index: 9999;
+  animation-duration: 3s;
+  animation-name: fadein;
 }
 
 .home {
@@ -777,6 +779,8 @@ h2 {
   float: left;
   display: block;
   width: 100%;
+  animation-duration: 5s;
+  animation-name: fadein;
 }
 
 .bullets-wrapper .hero-blurb:last-child {
@@ -1034,7 +1038,7 @@ figure img {
 }
 
 figure:hover {
-  box-shadow: 0 10px 10px #aaa;
+  box-shadow: 0 10px 10px #cecece;
 }
 
 .lazy {
@@ -1058,7 +1062,7 @@ figure:hover {
 }
 
 .container {
-  animation-duration: 3s;
+  animation-duration: 7s;
   animation-name: fadein;
 }
 

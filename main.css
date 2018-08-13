@@ -1096,16 +1096,18 @@ figure img:hover {
 .grid_card_wrapper {
   animation-duration: 3s;
   animation-name: slidefade;
+  position: relative;
 }
 
 @keyframes slidefade {
   from {
     opacity: 0;
-    padding-
+    right: 99999px;
   }
 
   to {
     opacity: 1;
+    right: 0;
   }
 }
 

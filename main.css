@@ -765,6 +765,9 @@ h2 {
   display: inline-block;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
+  color: rgb(133, 130, 154);
+  font-size: 3em;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 53.75em) {
@@ -789,7 +792,7 @@ h2 {
   .bullets-wrapper .hero-blurb {
     float: left;
     display: block;
-    width: 72%;
+    width: 100%;
   }
 }
 

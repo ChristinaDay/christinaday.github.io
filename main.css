@@ -1046,13 +1046,13 @@ figure img {
 
 .container {
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 8%;
     box-sizing: border-box;
 }
 
 @media only screen and (min-width: 1021px) {
   .container {
-    width: 1020px;
+    max-width: 1020px;
   }
 }
 

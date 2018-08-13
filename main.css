@@ -988,3 +988,77 @@ hr {
   width: 85%;
   border-top: 1px dotted #ccc;
 }
+
+.grid_card_wrapper {
+  float: left;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.grid_card_wrapper .grid_card_description {
+  width: calc(60% - 16px);
+}
+
+@media only screen and (min-width: 1021px) {
+  .grid_card_wrapper .grid_card_description {
+    width: calc(33% - 16px);
+  }
+}
+
+.grid_card_wrapper a.link_block {
+  display: inline-block;
+  width: calc(66%);
+  margin: 0 0 0 auto;
+}
+
+figure {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.grid_card_wrapper figure {
+  height: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+figure img {
+  transition: all 0.25s ease-in-out;
+  position: relative;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.lazy {
+  background-color: #fff;
+  height: inherit;
+}
+
+.grid_card_wrapper img {
+  float: center;
+  height: auto;
+  width: 100%;
+  padding: none;
+  vertical-align: top;
+  display: inline;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1021px) {
+  .container {
+    width: 1020px;
+  }
+}
+
+
+
+
+
+
+

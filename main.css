@@ -1040,13 +1040,15 @@ figure img {
   position: relative;
   width: 100%;
   margin: 0 0 0 0;
+  transition: all 0.25s ease-in-out;
+}
+
+figure img:hover {
+  transform: scale(1.2);
 }
 
 figure:hover {
   box-shadow: 0 10px 10px #cecece;
-  position: relative;
-  bottom: 1em;
-  transition: all 0.25s ease-in-out;
 }
 
 .lazy {

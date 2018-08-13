@@ -193,16 +193,16 @@ h2 {
 }
 
 .centered-navigation .logo a {
-  color: #807c9e;
+  color: rgb(197, 197, 210);
 }
 
 .centered-navigation .right .rhand-nav {
-  color: rgb(170, 170, 191);
+  color: rgb(197, 197, 210);
   font-size: 12px;
 }
 
 .centered-navigation .logo span {
-  color: #F78373;
+  color: rgb(197, 197, 210);
 }
 
 .centered-navigation li.more.nav-link {

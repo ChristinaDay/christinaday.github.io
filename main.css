@@ -812,7 +812,7 @@ h2 {
   padding: 0 18%;
   text-align: left;
   padding-top: 4em;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-name: fadein;
 }
 
@@ -1044,6 +1044,9 @@ figure img {
 
 figure:hover {
   box-shadow: 0 10px 10px #cecece;
+  position: relative;
+  bottom: 1em;
+  transition: all 0.25s ease-in-out;
 }
 
 .lazy {
@@ -1067,7 +1070,7 @@ figure:hover {
 }
 
 .container.grid {
-  animation-duration: 7s;
+  animation-duration: 5s;
   animation-name: fadein;
 }
 

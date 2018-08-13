@@ -1059,6 +1059,7 @@ figure img:hover {
   padding: none;
   vertical-align: top;
   display: inline;
+  border: 1px solid #ededed;
 }
 
 .container {

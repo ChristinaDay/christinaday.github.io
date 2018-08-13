@@ -843,9 +843,6 @@ h3 {
   line-height: 1.5;
 }
 
-a:hover {
-  color: rgb(197, 197, 210);
-}
 
 p {
   line-height: 1.5;
@@ -1019,6 +1016,10 @@ hr {
   .grid_card_wrapper .grid_card_description {
     width: calc(33% - 16px);
   }
+}
+
+.grid-card-wrapper a:hover {
+  color: rgb(197, 197, 210);
 }
 
 .grid_card_wrapper a.link_block {

@@ -779,8 +779,6 @@ h2 {
   float: left;
   display: block;
   width: 100%;
-  animation-duration: 5s;
-  animation-name: fadein;
 }
 
 .bullets-wrapper .hero-blurb:last-child {
@@ -802,6 +800,11 @@ h2 {
   box-shadow: 0px 2px 10px #bbb;
 }
 
+.bullets-wrapper {
+  animation-duration: 5s;
+  animation-name: fadein;
+}
+
 .project-container {
   max-width: 68em;
   margin-left: auto;
@@ -809,6 +812,8 @@ h2 {
   padding: 0 18%;
   text-align: left;
   padding-top: 4em;
+  animation-duration: 5s;
+  animation-name: fadein;
 }
 
 .project-container::after {
@@ -1061,7 +1066,7 @@ figure:hover {
     box-sizing: border-box;
 }
 
-.container {
+.container.grid {
   animation-duration: 7s;
   animation-name: fadein;
 }

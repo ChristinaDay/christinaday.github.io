@@ -1049,7 +1049,7 @@ figure img {
 }
 
 .grid_card_wrapper img:hover {
-  box-shadow: 0 10px 10px #aaa;
+  width: 110%;
 }
 
 .container {

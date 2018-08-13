@@ -843,11 +843,7 @@ h3 {
   line-height: 1.5;
 }
 
-h3 a {
-  color: rgb(133, 130, 154);
-}
-
-h3 a:hover {
+a:hover {
   color: rgb(197, 197, 210);
 }
 

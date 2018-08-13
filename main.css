@@ -86,6 +86,7 @@ h2 {
   margin-right: auto;
   position: relative;
   z-index: 999;
+  padding: 0 2% 0 2%;
 }
 
 .centered-navigation .centered-navigation-wrapper::after {

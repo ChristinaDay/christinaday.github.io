@@ -1033,8 +1033,8 @@ hr {
 }
 
 .grid_card_wrapper p {
-  color: rrgb(177, 177, 193);
-  -webkit-margin-after: 0;
+  color: rgb(177, 177, 193);
+  -webkit-margin-before: 0;
 }
 
 .grid_card_wrapper h3:hover {
@@ -1093,9 +1093,20 @@ figure img:hover {
     box-sizing: border-box;
 }
 
-.container.grid {
-  animation-duration: 2s;
-  animation-name: fadein;
+.grid_card_wrapper {
+  animation-duration: 3s;
+  animation-name: slidefade;
+}
+
+@keyframes slidefade {
+  from {
+    opacity: 0;
+    padding-
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadein {

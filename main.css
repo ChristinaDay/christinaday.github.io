@@ -744,7 +744,7 @@ h2 {
 .bullets-wrapper, .hero-wrapper {
   max-width: 68em;
   text-align: center;
-  padding: 0 10% 0 10%;
+  padding: 0 0 0 10%;
   padding-top: 3em;
   padding-bottom: 4.5em;
 }

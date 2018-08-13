@@ -51,7 +51,7 @@ h2 {
 }
 
 .centered-navigation .mobile-logo span {
-  color: #F78373;
+  color: rgb(197, 197, 210);
 }
 
 @media screen and (min-width: 53.75em) {
@@ -61,7 +61,7 @@ h2 {
 }
 
 .centered-navigation .centered-navigation-mobile-menu {
-  color: rgb(133, 130, 154);
+  color: rgb(197, 197, 210);
   display: block;
   float: right;
   line-height: 60px;

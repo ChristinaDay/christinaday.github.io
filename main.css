@@ -1101,7 +1101,7 @@ figure img:hover {
 }
 
 .grid_card_wrapper {
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-name: slidefade;
   position: relative;
 }

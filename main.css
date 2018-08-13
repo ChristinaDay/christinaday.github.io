@@ -1034,6 +1034,10 @@ figure img {
   margin: 0 0 0 0;
 }
 
+figure img:hover {
+  width: 115%;
+}
+
 .lazy {
   background-color: #fff;
   height: inherit;

@@ -335,6 +335,7 @@ a:hover {
 .grid_card_wrapper p {
   color: rgb(177, 177, 193);
   -webkit-margin-before: 0;
+  font-size: 1em;
 }
 
 .grid_card_wrapper h3:hover {

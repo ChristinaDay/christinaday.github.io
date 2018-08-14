@@ -291,16 +291,16 @@ a:hover {
 }
 
 .parallax-background-home {
-  background: url("../assets/hero-pattern.png") repeat;
+  background: url("./assets/hero-pattern.png") repeat;
   background-size: 68%;
 }
 
 .parallax-background-zc {
-  background: url("../assets/hero-pattern.png") repeat;
+  background: url("./assets/hero-pattern.png") repeat;
 }
 
 .parallax-background-hobbyicons {
-  background: url("../assets/icon-leglamp.png") repeat;
+  background: url("./assets/icon-leglamp.png") repeat;
 }
 
 /*HOME PAGE FEATURED PROJECTS*/
@@ -635,7 +635,7 @@ figure img:hover {
 }
 
 .grid-items .grid-item-image-6 {
-  background: url("../assets/bonsai-sm1.jpg");
+  background: url("./assets/bonsai-sm1.jpg");
 }
 
 .grid-items .grid-item-image-6:hover {
@@ -740,12 +740,12 @@ figure img:hover {
 }
 
 .grid-items .grid-item-image-13:hover {
-  background: url("../assets/learn-more-sm.svg");
+  background: url("./assets/learn-more-sm.svg");
 }
 
 @media screen and (min-width: 53.75em) {
   .grid-items .grid-item-image-13 {
-    background: url("../assets/bonsai-sm4.jpg");
+    background: url("./assets/bonsai-sm4.jpg");
     box-shadow: inset 0px 0px 1px 2px #ededed;
   }
 }

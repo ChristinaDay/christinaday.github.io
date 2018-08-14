@@ -46,6 +46,7 @@ h3 {
   -webkit-margin-after: 0;
   font-weight: 400;
   line-height: 1.5;
+  margin-bottom: 0.5em
 }
 
 h4 {
@@ -56,19 +57,24 @@ h4 {
 }
 
 p {
-  line-height: 1.5;
-  font-size: 14px;
+  line-height: 1.4;
+  font-size: 1.3em;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin-bottom: 3em;
 }
 
 a {
   color: rgb(62, 54, 117);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 a:hover {
   color: rgb(177, 177, 193);
 }
+
+/*NAVIGATION*/
 
 .centered-navigation {
   background-color: #fff;
@@ -258,6 +264,8 @@ a:hover {
   letter-spacing: 0.1em;
 }
 
+/*FEATURED MEDIA*/
+
 .parallax-window {
   max-height: 100%;
   overflow: hidden;
@@ -294,6 +302,127 @@ a:hover {
 .parallax-background-hobbyicons {
   background: url("../assets/icon-leglamp.png") repeat;
 }
+
+/*HOME PAGE FEATURED PROJECTS*/
+
+
+.grid_card_wrapper {
+  float: left;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.grid_card_wrapper .grid_card_description {
+  width: calc(60% - 16px);
+}
+
+@media only screen and (min-width: 1021px) {
+  .grid_card_wrapper .grid_card_description {
+    width: calc(33% - 16px);
+  }
+}
+
+.grid_card_wrapper h3 {
+  -webkit-margin-after: 0;
+}
+
+.grid_card_wrapper h4 {
+  -webkit-margin-after: 0;
+}
+
+.grid_card_wrapper p {
+  color: rgb(177, 177, 193);
+  -webkit-margin-before: 0;
+}
+
+.grid_card_wrapper h3:hover {
+  color: rgb(177, 177, 193);
+}
+
+.grid_card_wrapper a.link_block {
+  display: inline-block;
+  width: calc(66%);
+  margin: 0 0 0 auto;
+}
+
+figure {
+  margin-bottom: 3em;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+.grid_card_wrapper figure {
+  height: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+figure img {
+  position: relative;
+  width: 100%;
+  margin: 0 0 0 0;
+  transition: all 0.25s ease-in-out;
+}
+
+figure img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 17px 27px #e4e1e1;
+}
+
+.lazy {
+  background-color: #fff;
+  height: inherit;
+}
+
+.grid_card_wrapper img {
+  float: center;
+  height: auto;
+  width: 100%;
+  padding: none;
+  vertical-align: top;
+  display: inline;
+  border: 1px solid #ededed;
+}
+
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.grid_card_wrapper {
+  animation-duration: 1s;
+  animation-name: slidefade;
+  position: relative;
+}
+
+/*LOADING ANIMATIONS*/
+
+@keyframes slidefade {
+  from {
+    opacity: 0;
+    right: 50px;
+  }
+
+  to {
+    opacity: 1;
+    right: 0;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*THUMBNAIL MOSAIC*/
 
 .grid-items {
   margin-left: auto;
@@ -657,6 +786,8 @@ a:hover {
   display: none;
 }
 
+/*HOME PAGE HERO*/
+
 .bullets-wrapper, .hero-wrapper {
   text-align: center;
   padding-top: 3em;
@@ -718,66 +849,26 @@ a:hover {
   animation-name: fadein;
 }
 
+/*INTERNAL PROJECT PAGES*/
+
 .project-container {
-  max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 18%;
+  padding: 0 8%;
   text-align: left;
   padding-top: 4em;
   animation-duration: 2s;
   animation-name: fadein;
 }
 
-.project-container::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
 .image-container img {
   margin-bottom: 3em;
-  max-width: 704px;
+  width: 100%;
+  max-width: 840px;
+  border: 1px solid #ededed;
 }
 
-.image-container .img-sm {
-  max-width: 600px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-}
-
-.sub-container {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.sub-nav-container::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.sub-nav-container a {
-  font-weight: normal;
-  font-size: .75em;
-}
-
-.sub-nav-container li {
-  list-style: none;
-}
-
-.sub-nav-container .sub-navPrevious, .sub-nav-container .sub-navNext {
-  display: inline-block;
-}
-
-.sub-nav-container .sub-navBack {
-  float: left;
-}
-
-.sub-nav-container .sub-nav-projects {
-  float: right;
-}
+/*FOOTER*/
 
 footer {
   min-height: 2em;
@@ -878,122 +969,3 @@ footer a {
 #flickr {
   background-image: url(./assets/flickr-icon.svg);
 }
-
-.grid_card_wrapper {
-  float: left;
-  width: 100%;
-  height: auto;
-  display: flex;
-  margin-bottom: 32px;
-}
-
-.grid_card_wrapper .grid_card_description {
-  width: calc(60% - 16px);
-}
-
-@media only screen and (min-width: 1021px) {
-  .grid_card_wrapper .grid_card_description {
-    width: calc(33% - 16px);
-  }
-}
-
-.grid_card_wrapper h3 {
-  -webkit-margin-after: 0;
-}
-
-.grid_card_wrapper h4 {
-  -webkit-margin-after: 0;
-}
-
-.grid_card_wrapper p {
-  color: rgb(177, 177, 193);
-  -webkit-margin-before: 0;
-}
-
-.grid_card_wrapper h3:hover {
-  color: rgb(177, 177, 193);
-}
-
-.grid_card_wrapper a.link_block {
-  display: inline-block;
-  width: calc(66%);
-  margin: 0 0 0 auto;
-}
-
-figure {
-  margin-bottom: 3em;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-}
-
-.grid_card_wrapper figure {
-  height: auto;
-  transition: all 0.25s ease-in-out;
-}
-
-figure img {
-  position: relative;
-  width: 100%;
-  margin: 0 0 0 0;
-  transition: all 0.25s ease-in-out;
-}
-
-figure img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 17px 27px #e4e1e1;
-}
-
-.lazy {
-  background-color: #fff;
-  height: inherit;
-}
-
-.grid_card_wrapper img {
-  float: center;
-  height: auto;
-  width: 100%;
-  padding: none;
-  vertical-align: top;
-  display: inline;
-  border: 1px solid #ededed;
-}
-
-.container {
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-.grid_card_wrapper {
-  animation-duration: 1s;
-  animation-name: slidefade;
-  position: relative;
-}
-
-@keyframes slidefade {
-  from {
-    opacity: 0;
-    right: 50px;
-  }
-
-  to {
-    opacity: 1;
-    right: 0;
-  }
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-
-
-
-

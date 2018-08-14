@@ -133,7 +133,6 @@ a:hover {
 }
 
 .centered-navigation .centered-navigation-wrapper {
-  max-width: 68em;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -241,11 +240,18 @@ a:hover {
 
 .centered-navigation .logo a {
   color: rgb(197, 197, 210);
+  transition: all 0.25s ease-in-out;
 }
 
 .centered-navigation .right .rhand-nav {
-  color: rgb(197, 197, 210);
+  color: rgb(133, 130, 154);
   font-size: 12px;
+  font-weight: bolder;
+  transition: all 0.25s ease-in-out;
+}
+
+.centered-navigation .right .rhand-nav:hover {
+  color: rgb(197, 197, 210);
 }
 
 .centered-navigation .logo span {

@@ -872,7 +872,7 @@ figure img:hover {
 /*FOOTER*/
 
 footer {
-  min-height: 2em;
+  margin-bottom: 2em;
 }
 
 footer h2 {
@@ -901,6 +901,7 @@ footer a {
   list-style: none;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
+  margin-bottom: 0.5em;
 }
 
 .social ul li {

@@ -358,7 +358,10 @@ figure {
 
 .grid_card_wrapper figure {
   height: auto;
+  max-height: 375px;
+  overflow: hidden;
   transition: all 0.25s ease-in-out;
+  margin-bottom: 3em;
 }
 
 figure img {

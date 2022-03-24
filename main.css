@@ -801,7 +801,7 @@ figure img:hover {
 .bullets-wrapper, .hero-wrapper {
   text-align: center;
   padding-top: 3em;
-  padding-bottom: 4.5em;
+  padding-bottom: 3em;
 }
 
 .bullets-wrapper::after {
@@ -823,6 +823,7 @@ figure img:hover {
   color: rgb(133, 130, 154);
   font-size: 3em;
   font-weight: 400;
+  line-height: 1.2;
 }
 
 .bullets-wrapper .hero-blurb h2 span {

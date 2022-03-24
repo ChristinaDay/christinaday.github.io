@@ -824,6 +824,7 @@ figure img:hover {
   font-size: 3em;
   font-weight: 400;
   line-height: 1.2;
+  margin-bottom: 0.5em;
 }
 
 .bullets-wrapper .hero-blurb h2 span {

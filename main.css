@@ -831,6 +831,10 @@ figure img:hover {
   color: rgb(177, 177, 193);
 }
 
+.bullets-wrapper .hero-blurb p {
+  margin-bottom: none;
+}
+
 .bullets-wrapper .hero-blurb {
   float: left;
   display: block;

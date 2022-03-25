@@ -832,7 +832,7 @@ figure img:hover {
 }
 
 .bullets-wrapper .hero-blurb p {
-  margin-bottom: none;
+  margin-bottom: 0;
 }
 
 .bullets-wrapper .hero-blurb {

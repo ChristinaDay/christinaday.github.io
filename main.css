@@ -873,15 +873,21 @@ ul.profile-buttons {
 .profile-buttons li {
   list-style: none;
   display: inline-block;
+  border-color: black;
 }
 .profile-buttons li a {
   text-decoration: none;
 }
 
-.unique-button {
+a.unique-button {
   background-color: #c067d6;
   padding: 20px;
-  border-color: aqua;
+  font-weight: bold;
+}
+a.unique-button:hover {
+  background-color: #67d6d0;
+  padding: 20px;
+  font-weight: bold;
 }
 
 /*INTERNAL PROJECT PAGES*/

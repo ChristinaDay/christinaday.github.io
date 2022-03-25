@@ -466,7 +466,7 @@ figure img:hover {
   overflow: hidden;
   outline: none;
   padding: 2em;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   width: 100%;
   background-position: top;
@@ -799,7 +799,7 @@ figure img:hover {
 /*HOME PAGE HERO*/
 
 .bullets-wrapper, .hero-wrapper {
-  text-align: center;
+  text-align: left;
   padding-top: 3em;
 }
 
@@ -860,6 +860,7 @@ ul.hero-blurb li {
     float: left;
     display: block;
     width: 100%;
+    text-align: left;
   }
 }
 
@@ -923,7 +924,7 @@ a.unique-button:hover {
 }
 
 .project-container .media-wrapper {
-  text-align: center;
+  text-align: left;
   margin-bottom: 3em;
 }
 

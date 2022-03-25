@@ -887,8 +887,9 @@ a.unique-button {
 a.unique-button:hover {
   background-color: #67d6d0;
   padding: 20px;
-  font-weight: bold;
-  animation: 2ms;
+  font-weight: bold; 
+  animation-duration: 0.4s;
+  animation-name: fadein;
 }
 
 /*INTERNAL PROJECT PAGES*/

@@ -27,6 +27,12 @@ $(window).scroll(function(e) {
   }
 });
 
+$(document).ready(function() {
+  if ($("#profile-portfolio-button").is(':hover')) {
+    $("#profile-portfolio-button").addClass('unique-button');
+  }
+});
+
 function parallax(){
   if( $("#js-parallax-window").length > 0 ) {
     var plxBackground = $("#js-parallax-background");

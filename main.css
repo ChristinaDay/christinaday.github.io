@@ -873,6 +873,12 @@ figure img:hover {
   text-decoration: none;
 }
 
+.unique-button {
+  background-color: #c067d6;
+  margin: 20px;
+  border-color: aqua;
+}
+
 /*INTERNAL PROJECT PAGES*/
 
 .project-container {

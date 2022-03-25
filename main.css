@@ -831,7 +831,8 @@ figure img:hover {
 }
 
 .bullets-wrapper .hero-blurb p {
-  margin-bottom: 0;
+  margin-bottom: 2em;
+  padding-top: 0.5em;
 }
 
 .bullets-wrapper .hero-blurb {

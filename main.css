@@ -888,8 +888,7 @@ a.unique-button:hover {
   background-color: #67d6d0;
   padding: 20px;
   font-weight: bold; 
-  animation-duration: 0.4s;
-  animation-name: fadein;
+  transition: all 0.25s ease-in-out;
 }
 
 /*INTERNAL PROJECT PAGES*/

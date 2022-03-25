@@ -867,6 +867,7 @@ figure img:hover {
 
 .profile-buttons li {
   list-style: none;
+  display: inline-block;
 }
 .profile-buttons li a {
   text-decoration: none;
@@ -874,7 +875,7 @@ figure img:hover {
 
 .unique-button {
   background-color: #c067d6;
-  margin: 20px;
+  padding: 20px;
   border-color: aqua;
 }
 

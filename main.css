@@ -865,6 +865,11 @@ figure img:hover {
   animation-name: fadein;
 }
 
+.profile-buttons ul {
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+}
+
 .profile-buttons li {
   list-style: none;
   display: inline-block;

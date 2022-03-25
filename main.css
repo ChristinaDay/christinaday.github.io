@@ -801,7 +801,7 @@ figure img:hover {
 .bullets-wrapper, .hero-wrapper {
   text-align: center;
   padding-top: 3em;
-  padding-bottom: 3em;
+  margin-bottom: 3em;
 }
 
 .bullets-wrapper::after {
@@ -884,6 +884,7 @@ a.unique-button {
   padding: 20px;
   font-weight: bold;
   color: rgb(62, 54, 117);
+  margin-right: 1em;
 }
 a.unique-button:hover {
   background-color: #67d6d0;

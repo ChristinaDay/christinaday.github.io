@@ -865,8 +865,9 @@ figure img:hover {
   animation-name: fadein;
 }
 
-.profile-buttons li a {
+.profile-buttons li {
   border-color: #05ee8d;
+  text-decoration: none;
 }
 
 /*INTERNAL PROJECT PAGES*/

@@ -815,6 +815,16 @@ figure img:hover {
   }
 }
 
+ul.hero-blurb {
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+}
+
+ul.hero-blurb li {
+  list-style: none;
+  display: inline-block;
+}
+
 .bullets-wrapper .hero-blurb h2 {
   display: inline-block;
   -webkit-margin-before: 0;
